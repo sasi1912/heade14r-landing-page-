@@ -1,0 +1,401 @@
+body {
+    margin: 0;
+    padding: 63.5741% 0 0;
+    font-family: 'DM Sans';
+    background-color: #2f1983;
+    position: relative;
+    width: 1400px;
+    height: 890px;
+
+}
+
+/* the whole page has the dimensions of width = 1400px and height = 890px */
+/* navbar has the dimensions of 970*40 */
+.navbar {
+    position: fixed;
+    width: 69.43vw;
+    height: 4.49vh;
+    top: 7.30vh;
+    left: 15.21vw;
+    background-color: #2f1983;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.43vw;
+    box-sizing: border-box;
+}
+
+.left {
+    position: fixed;
+    font-size: 1.71vw;
+    line-height: 3.51vh;
+    width: 7.92vw;
+    height: 2.13vh;
+    top: 8.31vh;
+    left: 15.21vw;
+    font-weight: 700;
+}
+.right {
+    position: fixed;
+    display: flex;
+    font-size: 1.28vw;
+    font-weight: 500;
+    line-height: 2.92vh;
+    top: 8.31vh;
+    height: 2.92vh;
+    color: #fff;
+    text-align: center;
+}
+.overview {
+    position: fixed;
+    width: 5.71vw;
+    height: 2.92;
+    left: 48.71vw;
+    opacity: 30%;
+}
+.prices {
+    position: fixed;
+    width: 3.78vw;
+    height: 2.92;
+    left: 56.78vw;
+}
+.blog {
+    position: fixed;
+    width: 2.57vw;
+    height: 2.92;
+    left: 62.71vw;
+}
+.feedback {
+    position: fixed;
+    width: 6vw;
+    height: 2.92;
+    left: 67.64vw;
+}
+.purchase {
+    position: fixed;
+    width: 8.57vw;
+    height: 4.49vh;
+    top: 7.3vh;
+    left: 76.07vw;
+    border-radius: 2.8vh;
+    background-color: #e93a7d;
+}
+.purchase a {
+    position: fixed;
+    top: 8.31vh;
+    left: 77.5vw;
+    width: 5.64vw;
+    height: 2.92vh;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 0.71vw;
+}
+
+.navbar div {
+    cursor: pointer;
+}
+
+.form-container {
+    position: fixed;
+    width: 33.57vw;
+    height: 67.42vh;
+    top: 21.12vh;
+    left: 51.07vw;
+    background-color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    border: 0.1428vw solid #EBEAED
+}
+
+.form-container h3 {
+    position: fixed;
+    width: 17.64vw;
+    height: 5.84vh;
+    font-size: 3vw;
+    top: 26.40vh;
+    left: 59.21vw;
+    line-height: 5.84vh;
+    color: #1e0e62;
+    margin: 0;
+    white-space: nowrap;
+
+}
+
+.input-field-email {
+    position: fixed;
+    width: 23.57vw;
+    height: 5.61vh;
+    top: 36.06vh;
+    left: 56.07vw;
+    border-radius: 7.14vw;
+    border: 0.1428vw solid #EBEAED;
+    padding-left: 0;
+
+}
+
+#email ::placeholder {
+    position: sticky;
+    height: 2.92vh;
+    left: 57.78vw;
+    font-size: 1.28vw;
+    line-height: 2.92vh;
+    font-weight: 500;
+    color: #151439;
+    width: 6.28vw;
+    top: 37.43vh;
+}
+.input-field-password {
+    position: fixed;
+    width: 23.57vw;
+    height: 5.61vh;
+    left: 56.07vw;
+    top: 43.93vh;
+    border-radius: 7.14vw;
+    border: 0.1428vw solid #EBEAED
+}
+#password ::placeholder {
+    position: sticky;
+    height: 2.92vh;
+    left: 57.78vw;
+    font-size: 1.28vw;
+    line-height: 2.92vh;
+    font-weight: 500;
+    color: #151439;
+    top: 45.3vh;
+    width: 8.92vw;
+}
+
+.button {
+    position: fixed;
+    width: 23.57vw;
+    height: 5.62vh;
+    border-radius: 7.14vw;
+    background-color: #482be7;
+    border-color: #482be7;
+    top: 58.98vh;
+    left: 56.07vw;
+}
+.button p {
+    position: fixed;
+    width: 4vw;
+    height: 2.92vh;
+    top: 58.5vh;
+    left: 65.85vw;
+    font-size: 1.28vw;
+    line-height: 2.92vh;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+.checkbox {
+    position: fixed;
+    width: 18.92vw;
+    height: 2.96vh;
+    top: 52.92vh;
+    left: 56.07vw;
+}
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #25cad5;
+
+}
+#agreeCheckbox {
+    position: fixed;
+    height: 2.69vh;
+    width: 1.71vw;
+    top: 52.92vh;
+    left: 56.07vw;
+    accent-color: #25DAC5;
+    border-radius: 0.428vw;
+}
+.fa-solid {
+    position: fixed;
+    height: 0.6741vh;
+    width: 0.6857vw;
+    top: 54vh;
+    left: 56.7vw;
+    color: #1e0e62;
+}
+
+.checkbox label {
+    position: fixed;
+    width: 16.28vw;
+    height: 2.92vh;
+    top: 52.96vh;
+    left: 58.71vw;
+    font-size: 1.14vw;
+    line-height: 2.92vh;
+    font-weight: 400;
+    color: #151439;
+    opacity: 40%;
+
+
+}
+
+.or-line {
+    position: fixed;
+    width: 23.43vw;
+    height: 2.92vh;
+    top: 66.67vh;
+    left: 56.03vw;
+}
+
+.or-text {
+    position: fixed;
+    width: 1.14vw;
+    height: 2.92vh;
+    top: 66.67vh;
+    left: 67.07vw;
+    opacity: 90%;
+    font-size: 1.14vw;
+    line-height: 2.92vh;
+}
+.line-1 {
+    position: fixed;
+    width: 10.11vw;
+    height: 0.22vh;
+    top: 67.92vh;
+    border: 0.1428vw solid #EBEAED;
+    left: 56.03vw;
+}
+.line-2 {
+    position: fixed;
+    width: 10.11vw;
+    height: 0.22vh;
+    top: 67.92vh;
+    border: 0.1428vw solid #EBEAED;
+    left: 69.35vw;
+}
+
+.twitter-button {
+    position: fixed;
+    width: 23.57vw;
+    height: 5.62vh;
+    top: 71.46vh;
+    left: 56.07vw;
+    color: #fff;
+    background-color: #1da1f2;
+    border-radius: 7.14vw;
+    border-color: #1da1f2;
+}
+.twitter-button p {
+    position: fixed;
+    top: 71.5vh;
+    left: 62.92vw;
+    font-size: 1.28vw;
+    line-height: 2.92vh;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    width: 9.85vw;
+    height: 2.92vh;
+}
+
+.signup-text {
+    position: fixed;
+    width: 19.50vw;
+    height: 3.15vh;
+    top: 80.67vh;
+    left: 58.21vw;
+    font-size: 1.28vw;
+    line-height: 3.14vh;
+}
+.account-exist {
+    position: fixed;
+    color: #151439;
+    opacity: 40%;
+    width: 15.35vw;
+    left: 58.21vw;
+    height: 3.15vh;
+    top: 80.67vh;
+}
+.sign-in {
+    position: fixed;
+    color: #25DAC5;
+    width: 4vw;
+    left: 74.28vw;
+    height: 3.15vh;
+    top: 80.67vh;
+}
+
+
+.text-box {
+    width: 30.50vw;
+    height: 55.73vh;
+    top: 24.6vh;
+    left: 14.93vw;
+    position: absolute;
+    background-color: #2f1983;
+    padding: 2.86vw;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.text-box h2 {
+    position: fixed;
+    font-size: 4.14vw;
+    font-weight: 700;
+    line-height: 7.86vh;
+    margin-bottom: 2.25vh;
+    margin-top: 0;
+    width: 30.50vw;
+    height: 24.3vh;
+    top: 24.6vh;
+    left: 15.14vw;
+    color: #fff;
+}
+
+.text-box h5 {
+    position: fixed;
+    font-size: 1.57vw;
+    line-height: 3.59vh;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 2.25vh;
+    width: 25.92vw;
+    height: 17.97vh;
+    top: 51.68vh;
+    left: 15.14vw;
+    color: #fff;
+}
+
+.learn-more-button {
+    position: fixed;
+    width: 11.21vw;
+    height: 5.61vh;
+    top: 74.71vh;
+    left: 14.92vw;
+    background-color: #e93a7d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3.57vw;
+    font-size: 1.28vw;
+}
+.learn-more-button a {
+    position: fixed;
+    width: 6.85vw;
+    height: 2.92vh;
+    top: 76.06vh;
+    left: 17.14vw;
+    font-size: 1.28vw;
+    font-weight: 500;
+    line-height: 2.92vh;
+    color: #fff;
+}
+
+.learn-more-button:hover {
+    background-color: #e93a7d;
+}
+
+@media(min-width: 1400px) {
+    .learn-more-button,
+    .learn-more-button a {
+        margin-top: 40px;
+    }
+}
